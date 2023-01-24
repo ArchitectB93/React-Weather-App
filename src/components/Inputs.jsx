@@ -10,7 +10,7 @@ function Inputs({ setQuery, units, setUnits }) {
         if (units !== selectedUnit) setUnits(selectedUnit);
     };
 
-    const handleSeachClick = () => {
+    const handleSearchClick = () => {
         if (city !== "") setQuery({ q: city });
     };
 
